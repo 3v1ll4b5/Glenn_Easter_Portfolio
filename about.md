@@ -18,7 +18,7 @@ I view cybersecurity not just as a job, but as a discipline that requires consta
 2.  **Practical Application:** Applying theory in safe, controlled lab environments (like my Project G.I.R. initiative).
 3.  **Reflective Practice:** Documenting what I learn to ensure deep understanding and retention.
 
-I am comfortable with being a beginner and asking questions, as I believe that humility is a strength in a field where overconfidence can lead to vulnerability.
+Security demands humility at scale. I approach problems with structured skepticism, evidence-driven validation, and a commitment to continuous refinement rather than premature certainty.
 
 ## Ethical Framework
 
