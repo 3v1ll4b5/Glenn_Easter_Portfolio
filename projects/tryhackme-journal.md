@@ -1,36 +1,33 @@
 ---
 layout: page
-title: TryHackMe Learning Journal
+title: TryHackMe Applied Security Journal
 ---
 
-# TryHackMe Learning Journal
+# TryHackMe Applied Security Journal
 
-*A record of structured learning modules, Capture The Flag (CTF) exercises, and key takeaways.*
-
----
-
-## **Coming Soon**
-
-I am currently working through the **[Specific Path, e.g., Pre-Security / Cyber Defense]** path on TryHackMe. This section will document my progress and, more importantly, what I learned from each room. I focus on understanding the underlying mechanisms of the vulnerabilities I encounter.
+Structured applied study of vulnerability mechanics through controlled lab environments.
 
 ---
 
-### Template for Future Entries
+## Current Focus: Web Application Security & Pentesting Path
 
-#### Room Name: [Name]
-**Date Completed:** [Date]
-**Topic:** [e.g., OWASP Top 10, Network Fundamentals, Linux PrivEsc]
+I am intentionally working through Web Application Security modules to deepen my understanding of how common vulnerability classes emerge within real systems.
 
-**Key Concepts Learned:**
-1.  Concept A
-2.  Concept B
+The purpose is not exploitation proficiency, but architectural literacy.
 
-**Tools Used:**
--   Tool 1
--   Tool 2
+Web application vulnerabilities often stem from:
 
-**Reflection/Challenges:**
-*Briefly describe a challenge faced during the room and how it was solved (without giving away flags).*
+- Broken trust boundaries
+- Insufficient input validation
+- Improper authentication or session controls
+- Business logic design flaws
+- Logging and monitoring gaps
 
----
-[Return to Home](../index.md)
+Studying these mechanisms strengthens my ability to:
+
+- Interpret scan results within context
+- Design detection logic around observable telemetry
+- Understand how vulnerabilities propagate operational risk
+- Improve automation guardrails within structured analysis frameworks (e.g., Project G.I.R.)
+
+Each lab is documented through a defensive lens — focusing on root cause, detection signals, remediation strategy, and governance implications rather than exploit mechanics.
