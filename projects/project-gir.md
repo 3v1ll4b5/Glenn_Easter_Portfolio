@@ -86,3 +86,11 @@ The framework includes:
 - Explicit user review checkpoints  
 
 The system exists to strengthen defensive reasoning, not to simulate offensive capability.
+
+---
+
+## Broader Context
+
+Project G.I.R. reflects my broader philosophy that automation and AI must operate within structured governance frameworks. As defensive tooling becomes more autonomous, preserving transparent reasoning, human validation, and contextual risk interpretation becomes essential.
+
+This framework serves as a controlled environment for developing that discipline — ensuring that scale never replaces judgment.
