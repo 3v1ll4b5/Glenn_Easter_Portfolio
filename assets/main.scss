@@ -7,7 +7,6 @@
     --text: #d6dee7;
     --muted: #93a4b7;
     --accent: #39ffdd;
-    /* neon-cyan */
     --border: rgba(57, 255, 221, .18);
     --shadow: rgba(0, 0, 0, .45);
     --codebg: #0a121a;
@@ -22,15 +21,14 @@ body {
 a,
 a:visited {
     color: var(--accent);
-    text-decoration-color: rgba(57, 255, 221, .35);
 }
 
 a:hover {
-    text-decoration-color: var(--accent);
+    text-decoration: underline;
 }
 
 .site-header {
-    background: rgba(11, 15, 20, .88);
+    background: rgba(11, 15, 20, .95);
     border-top: 1px solid var(--border);
     border-bottom: 1px solid var(--border);
     box-shadow: 0 8px 26px var(--shadow);
@@ -39,33 +37,22 @@ a:hover {
 .site-title,
 .site-title:visited {
     color: var(--text);
-    letter-spacing: .02em;
 }
 
 .site-nav .page-link {
     color: var(--muted);
-    border-bottom: 1px solid transparent;
 }
 
 .site-nav .page-link:hover {
-    color: var(--text);
-    border-bottom: 1px solid var(--accent);
-}
-
-.wrapper {
-    max-width: 980px;
-}
-
-.page-content {
-    background: transparent;
+    color: var(--accent);
 }
 
 .post,
 .page {
-    background: linear-gradient(180deg, rgba(15, 23, 32, .92), rgba(11, 15, 20, .92));
+    background: linear-gradient(180deg, rgba(15, 23, 32, .95), rgba(11, 15, 20, .95));
     border: 1px solid rgba(57, 255, 221, .14);
-    border-radius: 16px;
-    padding: 1.25rem 1.25rem;
+    border-radius: 14px;
+    padding: 1.25rem;
     box-shadow: 0 18px 50px var(--shadow);
 }
 
@@ -77,16 +64,11 @@ h3 {
 
 h2 {
     border-bottom: 1px solid rgba(57, 255, 221, .14);
-    padding-bottom: .25rem;
 }
 
 .site-footer {
     border-top: 1px solid var(--border);
     color: var(--muted);
-}
-
-.site-footer a {
-    color: var(--accent);
 }
 
 pre,
@@ -95,46 +77,7 @@ code {
     border: 1px solid rgba(57, 255, 221, .14);
 }
 
-pre {
-    padding: .9rem;
-    border-radius: 14px;
-    overflow-x: auto;
-}
-
-code {
-    border-radius: 10px;
-    padding: .12rem .35rem;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th,
-td {
-    border: 1px solid rgba(57, 255, 221, .12);
-}
-
-th {
-    background: rgba(15, 23, 32, .9);
-    color: var(--text);
-}
-
-td {
-    background: rgba(11, 15, 20, .65);
-}
-
 blockquote {
     border-left: 3px solid var(--accent);
     color: var(--muted);
-    background: rgba(15, 23, 32, .55);
-    border-radius: 12px;
-    padding: .7rem .9rem;
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(57, 255, 221, .35), transparent);
 }
