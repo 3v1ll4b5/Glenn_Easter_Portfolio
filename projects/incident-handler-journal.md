@@ -1,36 +1,98 @@
 ---
 layout: page
-title: Incident Handling Methodology
+title: Incident Handling Methodologies
 ---
 
 # Incident Handling Methodologies
 
-*Documenting my study and application of Incident Response (IR) frameworks.*
+Structured simulation of incident response workflows based on NIST SP 800-61 and SANS PICERL frameworks.
 
 ---
 
-## **Coming Soon**
+## Simulation: Phishing-Based Credential Harvesting Attempt
 
-This section will house my notes and simulated incident reports based on the **NIST SP 800-61** Computer Security Incident Handling Guide and the **SANS PICERL** framework. My goal is to demonstrate my understanding of the full lifecycle of a security incident, from preparation to post-incident activity.
+**Framework Applied:** NIST SP 800-61
+
+---
+
+### 1. Preparation
+
+Baseline controls assumed in place:
+
+- Email filtering and spam detection
+- Endpoint antivirus / EDR
+- Centralized log collection
+- User security awareness training
+- Incident escalation playbook
+
+Response tools available:
+
+- SIEM platform for log analysis
+- Endpoint investigation utilities
+- Account management tools for credential resets
+- Internal communication escalation process
 
 ---
 
-### Template for Future Entries
+### 2. Detection & Analysis
 
-#### Simulation: [Scenario Name, e.g., Phishing Campaign Analysis]
-**Framework Applied:** NIST / SANS
+**Trigger Event:**
+Multiple users reported suspicious email messages requesting password verification via external link.
 
-**1. Preparation:**
-*What baseline protections were in place? What tools were ready?*
+**Initial Indicators:**
+- Email sender domain visually similar to internal domain
+- Embedded hyperlink redirecting to non-corporate domain
+- High urgency language within message
 
-**2. Detection & Analysis:**
-*What triggered the alert? How was the scope determined? (e.g., Log analysis steps)*
+**Log Review Findings:**
+- Several successful link clicks recorded in proxy logs
+- No immediate malicious payload execution detected
+- Two affected accounts attempted authentication from unusual IP addresses within 15 minutes of link interaction
 
-**3. Containment, Eradication, & Recovery:**
-*Strategy for stopping the spread. Steps to remove the threat. Verification of system restore.*
+**Scope Determination:**
+- Identified impacted user accounts
+- Queried authentication logs for anomalous login attempts
+- Verified whether lateral movement occurred
 
-**4. Post-Incident Activity:**
-*Lessons learned. What would be done differently next time?*
+Scope confirmed limited to credential exposure risk, no confirmed system compromise.
 
 ---
-[Return to Home](../index.md)
+
+### 3. Containment, Eradication & Recovery
+
+**Containment Actions:**
+- Forced password reset for affected accounts
+- Invalidated active authentication sessions
+- Blocked malicious domain at firewall and email gateway
+
+**Eradication:**
+- Removed phishing emails from inboxes via centralized admin tools
+- Conducted endpoint scans for persistence mechanisms (none detected)
+
+**Recovery:**
+- Confirmed normal login behavior restored
+- Monitored accounts for 48 hours for abnormal access patterns
+- Communicated outcome to affected users
+
+---
+
+### 4. Post-Incident Activity
+
+**Lessons Learned:**
+- Email filter tuning required for domain impersonation patterns
+- MFA enforcement reduces impact of credential harvesting
+- Faster user reporting significantly reduces exposure window
+
+**Recommended Improvements:**
+- Implement stricter domain similarity detection rules
+- Enforce mandatory MFA across all accounts
+- Conduct quarterly phishing simulation exercises
+- Update incident playbook with refined credential exposure workflow
+
+---
+
+## Operational Reflection
+
+This exercise reinforces the importance of structured scope assessment before escalation. Not all phishing events result in compromise, but disciplined log correlation and rapid containment are critical in preventing credential misuse.
+
+The goal of incident response is not speed alone, but controlled decision-making under uncertainty.
