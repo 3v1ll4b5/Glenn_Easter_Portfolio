@@ -1,98 +1,101 @@
 ---
 layout: page
-title: Incident Handling Methodologies
+title: Incident Handling Methodology
 ---
 
-# Incident Handling Methodologies
+# Incident Handling Methodology
 
-Structured simulation of incident response workflows based on NIST SP 800-61 and SANS PICERL frameworks.
+Structured application of incident response frameworks aligned with NIST SP 800-61 and SANS PICERL.
+
+This section demonstrates operational reasoning, scope control, and decision discipline within simulated incident environments conducted in authorized lab settings.
 
 ---
 
-## Simulation: Phishing-Based Credential Harvesting Attempt
+## Incident Simulation: Phishing-Induced Credential Exposure Risk
 
-**Framework Applied:** NIST SP 800-61
+**Framework Alignment:** NIST SP 800-61 (Preparation → Detection & Analysis → Containment → Eradication → Recovery → Post-Incident Review)
 
 ---
 
 ### 1. Preparation
 
-Baseline controls assumed in place:
+The simulated environment assumes the presence of:
 
-- Email filtering and spam detection
-- Endpoint antivirus / EDR
-- Centralized log collection
-- User security awareness training
-- Incident escalation playbook
+- Centralized logging (authentication, proxy, and email telemetry)
+- Email filtering controls
+- Endpoint monitoring capabilities
+- Account management and session invalidation tools
+- Defined incident escalation workflow
 
-Response tools available:
-
-- SIEM platform for log analysis
-- Endpoint investigation utilities
-- Account management tools for credential resets
-- Internal communication escalation process
+Preparation emphasizes readiness, not reaction. Controls are validated before incident conditions are introduced.
 
 ---
 
 ### 2. Detection & Analysis
 
-**Trigger Event:**
-Multiple users reported suspicious email messages requesting password verification via external link.
+**Initial Trigger:**
+User-reported suspicious email requesting credential verification.
 
-**Initial Indicators:**
-- Email sender domain visually similar to internal domain
-- Embedded hyperlink redirecting to non-corporate domain
-- High urgency language within message
+**Indicator Review:**
+- Domain impersonation pattern observed
+- Embedded redirect to external credential-harvesting site
+- Elevated click-through rate among recipients
 
-**Log Review Findings:**
-- Several successful link clicks recorded in proxy logs
-- No immediate malicious payload execution detected
-- Two affected accounts attempted authentication from unusual IP addresses within 15 minutes of link interaction
+**Log Correlation:**
+- Proxy logs confirm outbound connections to flagged domain
+- Authentication logs reveal anomalous login attempts within 20 minutes of user interaction
+- No evidence of lateral movement or privilege escalation
 
 **Scope Determination:**
-- Identified impacted user accounts
-- Queried authentication logs for anomalous login attempts
-- Verified whether lateral movement occurred
+Exposure limited to credential risk. No confirmed system compromise. Affected accounts isolated.
 
-Scope confirmed limited to credential exposure risk, no confirmed system compromise.
+Analysis prioritized evidence validation over assumption. Escalation decisions were based on confirmed telemetry rather than speculative indicators.
 
 ---
 
-### 3. Containment, Eradication & Recovery
+### 3. Containment, Eradication, and Recovery
 
 **Containment Actions:**
-- Forced password reset for affected accounts
-- Invalidated active authentication sessions
-- Blocked malicious domain at firewall and email gateway
+- Immediate password resets for affected accounts
+- Session invalidation across active tokens
+- Network-level domain blocking
 
-**Eradication:**
-- Removed phishing emails from inboxes via centralized admin tools
-- Conducted endpoint scans for persistence mechanisms (none detected)
+**Eradication Measures:**
+- Centralized removal of phishing emails
+- Endpoint verification scans to confirm absence of persistence mechanisms
 
-**Recovery:**
-- Confirmed normal login behavior restored
-- Monitored accounts for 48 hours for abnormal access patterns
-- Communicated outcome to affected users
+**Recovery Verification:**
+- Authentication behavior returned to baseline
+- 48-hour monitoring window implemented
+- No secondary indicators detected
+
+Containment strategy focused on minimizing operational disruption while reducing exposure window.
 
 ---
 
-### 4. Post-Incident Activity
+### 4. Post-Incident Review
 
-**Lessons Learned:**
-- Email filter tuning required for domain impersonation patterns
-- MFA enforcement reduces impact of credential harvesting
-- Faster user reporting significantly reduces exposure window
+**Root Cause Considerations:**
+- Email filtering thresholds insufficient for domain similarity detection
+- MFA not uniformly enforced across accounts
 
 **Recommended Improvements:**
-- Implement stricter domain similarity detection rules
-- Enforce mandatory MFA across all accounts
-- Conduct quarterly phishing simulation exercises
-- Update incident playbook with refined credential exposure workflow
+- Enforce mandatory MFA across all user accounts
+- Enhance impersonation detection controls
+- Integrate automated domain risk scoring
+- Conduct periodic credential exposure tabletop exercises
 
 ---
 
-## Operational Reflection
+## Operational Perspective
 
-This exercise reinforces the importance of structured scope assessment before escalation. Not all phishing events result in compromise, but disciplined log correlation and rapid containment are critical in preventing credential misuse.
+Incident response effectiveness is measured not by speed alone, but by controlled decision-making under uncertainty.
 
-The goal of incident response is not speed alone, but controlled decision-making under uncertainty.
+This simulation reinforces:
+
+- Evidence-based escalation
+- Clear scope definition
+- Minimal blast-radius containment
+- Governance alignment with documented frameworks
+
+The objective is repeatability, auditability, and resilience — not reactive urgency.
