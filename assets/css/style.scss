@@ -1,0 +1,136 @@
+---
+# This front matter tells Jekyll to process SCSS
+---
+
+/* Import Minima's base styles first */
+@import "minima";
+
+/* ===== 3v1l Tech Dark Mode ===== */
+:root {
+  --bg: #0b0f14;
+  --panel: #0f1720;
+  --text: #d6dee7;
+  --muted: #93a4b7;
+  --accent: #39ffdd; /* neon-cyan */
+  --accent2: #7c5cff; /* optional secondary (violet) */
+  --border: rgba(57, 255, 221, 0.18);
+  --shadow: rgba(0,0,0,0.45);
+  --codebg: #0a121a;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Links */
+a, a:visited {
+  color: var(--accent);
+  text-decoration-color: rgba(57, 255, 221, 0.35);
+}
+a:hover {
+  text-decoration-color: var(--accent);
+}
+
+/* Header / Nav */
+.site-header {
+  background: rgba(11, 15, 20, 0.88);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 8px 26px var(--shadow);
+}
+.site-title, .site-title:visited {
+  color: var(--text);
+  letter-spacing: 0.02em;
+}
+.site-nav .page-link {
+  color: var(--muted);
+  border-bottom: 1px solid transparent;
+}
+.site-nav .page-link:hover {
+  color: var(--text);
+  border-bottom: 1px solid var(--accent);
+}
+
+/* Page container */
+.page-content {
+  background: transparent;
+}
+.wrapper {
+  max-width: 980px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: var(--text);
+}
+h2 {
+  border-bottom: 1px solid rgba(57, 255, 221, 0.14);
+  padding-bottom: 0.25rem;
+}
+
+/* “Card” feel for main content */
+.post-content, .page-content .wrapper {
+  border-radius: 14px;
+}
+.post, .page {
+  background: linear-gradient(180deg, rgba(15, 23, 32, 0.92), rgba(11, 15, 20, 0.92));
+  border: 1px solid rgba(57, 255, 221, 0.14);
+  border-radius: 16px;
+  padding: 1.25rem 1.25rem;
+  box-shadow: 0 18px 50px var(--shadow);
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}
+.site-footer a { color: var(--accent); }
+
+/* Code blocks */
+pre, code {
+  background: var(--codebg);
+  border: 1px solid rgba(57, 255, 221, 0.14);
+}
+pre {
+  padding: 0.9rem;
+  border-radius: 14px;
+  overflow-x: auto;
+}
+code {
+  border-radius: 10px;
+  padding: 0.12rem 0.35rem;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid rgba(57, 255, 221, 0.12);
+}
+th {
+  background: rgba(15, 23, 32, 0.9);
+  color: var(--text);
+}
+td {
+  background: rgba(11, 15, 20, 0.65);
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 3px solid var(--accent);
+  color: var(--muted);
+  background: rgba(15, 23, 32, 0.55);
+  border-radius: 12px;
+  padding: 0.7rem 0.9rem;
+}
+
+/* Subtle “terminal” HR */
+hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(57,255,221,0.35), transparent);
+}

@@ -1,3 +1,8 @@
+---
+layout: page
+title: Vulnerable System Analysis Reports
+---
+
 # Vulnerable System Analysis Reports
 
 *Technical assessments of authorized lab targets.*
@@ -31,4 +36,4 @@ This repository will contain assessment reports for systems I have personally au
 -   **Remediation Recommendation:** *How do we fix it?*
 
 ---
-[Return to Home](../README.md)
+[Return to Home](../index.md)

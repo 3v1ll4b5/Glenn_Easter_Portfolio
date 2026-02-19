@@ -1,3 +1,8 @@
+---
+layout: page
+title: SQL for Security Analysis
+---
+
 # SQL for Security Analysis
 
 Applying structured query language (SQL) to security detection, log investigation, and anomaly analysis.

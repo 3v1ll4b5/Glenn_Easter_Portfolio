@@ -1,3 +1,8 @@
+---
+layout: page
+title: TryHackMe Learning Journal
+---
+
 # TryHackMe Learning Journal
 
 *A record of structured learning modules, Capture The Flag (CTF) exercises, and key takeaways.*
@@ -28,4 +33,4 @@ I am currently working through the **[Specific Path, e.g., Pre-Security / Cyber 
 *Briefly describe a challenge faced during the room and how it was solved (without giving away flags).*
 
 ---
-[Return to Home](../README.md)
+[Return to Home](../index.md)

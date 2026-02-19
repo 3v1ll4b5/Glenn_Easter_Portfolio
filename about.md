@@ -1,3 +1,8 @@
+---
+layout: page
+title: About
+---
+
 # About Me
 
 ## Career Transition Narrative
@@ -35,4 +40,4 @@ Integrity is non-negotiable in this field. My work is guided by the following pr
 -   Become a trusted advisor in defensive security operations.
 
 ---
-[Return to Home](README.md)
+[Return to Home](index.md)

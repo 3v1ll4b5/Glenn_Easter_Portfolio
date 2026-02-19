@@ -1,0 +1,15 @@
+title: Glenn Easter
+description: Cybersecurity Professional | Emerging Security & AI Systems Leader
+theme: minima
+
+header_pages:
+  - about.md
+  - projects/project-gir.md
+  - projects/tryhackme-journal.md
+  - projects/incident-handler-journal.md
+  - projects/vulnerable-system-analysis.md
+  - projects/sql-query.md
+
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/3v1ll4b5" }

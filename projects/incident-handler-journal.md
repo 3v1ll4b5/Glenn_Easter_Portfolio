@@ -1,3 +1,8 @@
+---
+layout: page
+title: Incident Handling Methodologies
+---
+
 # Incident Handling Methodologies
 
 *Documenting my study and application of Incident Response (IR) frameworks.*
@@ -28,4 +33,4 @@ This section will house my notes and simulated incident reports based on the **N
 *Lessons learned. What would be done differently next time?*
 
 ---
-[Return to Home](../README.md)
+[Return to Home](../index.md)

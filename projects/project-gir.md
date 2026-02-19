@@ -1,3 +1,8 @@
+---
+layout: page
+title: Project G.I.R.
+---
+
 # Project G.I.R. (Glitch, Intrude, Repeat)
 
 **Status:** *Active Development / Independent Research*
@@ -37,4 +42,4 @@ This project directly reinforces my studies in:
 -   It is a tool for learning *defense* by understanding *offense*.
 
 ---
-[Return to Home](../README.md)
+[Return to Home](../index.md)
