@@ -5,11 +5,11 @@
 
 ## Executive Profile
 
-I am a cybersecurity practitioner in development with a focused interest in defensive security operations, detection engineering, and responsible automation governance.
+I am a cybersecurity practitioner in development focused on defensive security operations, detection engineering, and responsible automation governance.
 
-Currently completing the Merit America Cybersecurity Program, I am building structured capability in incident response, vulnerability analysis, network fundamentals, and SQL-driven log investigation. My approach emphasizes disciplined interpretation over tool dependency — understanding not only what a system reports, but what it means, why it matters, and how it should be addressed.
+Currently completing the Merit America Cybersecurity Program, I am strengthening practical capability in incident response, vulnerability analysis, network fundamentals, and SQL-based telemetry investigation. My approach centers on disciplined interpretation — understanding not just what tools report, but what findings mean, why they matter, and how they should be addressed.
 
-As security tooling increasingly incorporates automation and AI, I am particularly interested in preserving the human judgment layer that prevents automation from becoming uncontrolled amplification.
+As automation and AI increasingly scale security workflows, preserving structured human judgment becomes critical. My work emphasizes governance, contextual risk assessment, and guardrails that ensure automation supports — rather than replaces — accountable decision-making.
 
 All experimentation is conducted in isolated, authorized lab environments.
 
@@ -17,29 +17,29 @@ All experimentation is conducted in isolated, authorized lab environments.
 
 ## Core Technical Domains
 
-### Security Operations & Incident Response
-- Structured incident lifecycle modeling (NIST / SANS)
+**Security Operations & Incident Response**
+- Incident lifecycle modeling (NIST / SANS)
 - Log correlation and anomaly identification
-- Vulnerability triage with remediation prioritization
-- Post-incident reflection and documentation
+- Vulnerability triage and remediation prioritization
+- Post-incident analysis and documentation
 
-### Detection Engineering & Data Analysis
-- SQL-based query construction for security telemetry
-- Time-window aggregation and threshold tuning
-- Translating threat hypotheses into measurable detection logic
-- Contextual filtering to reduce false positives
+**Detection Engineering & Data Analysis**
+- SQL-driven log analysis and threshold tuning
+- Time-window aggregation strategies
+- Threat hypothesis translation into measurable queries
+- Context-aware false positive reduction
 
-### Networking & Systems Foundations
+**Networking & Systems**
 - TCP/IP protocol analysis
 - Port and service interpretation
 - Linux command-line investigative workflows
 - Defensive scanning in controlled lab environments
 
-### Responsible Automation & Governance
-- Human-in-the-loop validation checkpoints
-- Scope enforcement and authorization guardrails
-- Non-destructive testing defaults
-- Risk contextualization before action
+**Responsible Automation**
+- Human-in-the-loop validation
+- Scope enforcement and authorization controls
+- Non-destructive defaults
+- Risk contextualization before escalation
 
 ---
 
@@ -47,57 +47,44 @@ All experimentation is conducted in isolated, authorized lab environments.
 
 ### Project G.I.R. (Glitch, Intrude, Repeat)
 
-Project G.I.R. is a disciplined interpretation framework designed to teach structured vulnerability analysis in a controlled environment.
+Project G.I.R. is a disciplined interpretation framework designed to teach structured vulnerability analysis within a controlled lab environment.
 
-Rather than focusing on exploitation mechanics, the framework emphasizes:
+Its emphasis is not exploitation, but judgment training. The framework:
 
-- Slowing down tool output into structured reasoning  
-- Converting raw findings into contextual risk understanding  
-- Forcing human review before escalation  
-- Practicing remediation-first thinking  
+- Converts raw scan output into contextual risk reasoning  
+- Requires human review before escalation  
+- Enforces strict scope boundaries  
+- Prioritizes remediation-focused thinking  
 
-The purpose of G.I.R. is educational by design. It exists to train judgment, not automate decisions.
-
-As AI-assisted security tooling continues to evolve, this project explores how systems can support analysts without replacing critical thinking. Guardrails are embedded architecturally to ensure authorization, scope discipline, and ethical boundaries remain intact.
+As AI-assisted security tooling evolves, this project explores how automation can remain aligned with ethical oversight and decision accountability.
 
 ---
 
 ## Security & AI Philosophy
 
-Security automation is accelerating, and AI-assisted tooling is increasingly embedded in detection, response, and vulnerability management workflows. While these technologies increase scale and speed, they also introduce amplification risk — small errors can propagate quickly when decision layers are abstracted away.
+Automation increases speed. AI increases scale. Without governance, both increase risk.
 
-My philosophy is that automation should enhance clarity, not replace judgment.
+I am particularly interested in designing defensive systems where:
 
-Effective security systems must include:
+- Reasoning paths remain transparent  
+- Authorization boundaries are explicit  
+- Validation checkpoints are mandatory  
+- Risk is interpreted in operational context  
 
-- Transparent reasoning paths  
-- Explicit authorization boundaries  
-- Human validation checkpoints  
-- Context-aware risk interpretation  
-
-The future of defensive security will depend not only on better models, but on better governance frameworks surrounding those models. I am particularly interested in designing systems where AI assists analysts without diminishing accountability, traceability, or ethical oversight.
+The future of security depends not only on smarter tools, but on structured frameworks that preserve accountability.
 
 ---
 
 ## Professional Direction
 
-### Short-Term
-- Contribute to a security operations team in a SOC or analyst role
-- Continue strengthening investigative reasoning and detection workflows
+**Short-Term**
+- Contribute to a security operations team in a SOC or analyst capacity  
+- Strengthen investigative reasoning and detection workflows  
 
-### Long-Term
-- Contribute to the responsible integration of AI into defensive security operations
-- Develop expertise in detection architecture and incident response strategy
-- Advocate for governance frameworks that preserve human judgment in automated systems
-
----
-
-## Operating Principles
-
-- Authorization before action  
-- Context before conclusion  
-- Remediation before recognition  
-- Automation with discipline  
+**Long-Term**
+- Contribute to responsible AI integration in defensive security operations  
+- Develop expertise in detection architecture and incident response strategy  
+- Help shape governance standards for scalable security automation  
 
 ---
 
