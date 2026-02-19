@@ -1,47 +1,87 @@
-# Glenn Easter
-**Cybersecurity Professional in Training**
+# Glenn Easter  
+**Cybersecurity Professional | Emerging Security & AI Systems Leader**
 
 ---
 
-## Professional Summary
+## Executive Profile
 
-I am an aspiring cybersecurity analyst currently transitioning into the field through the rigorous Merit America Cybersecurity Program. My background is built on a foundation of disciplined learning, and I am actively developing hands-on skills in incident response, log analysis, vulnerability assessment, network fundamentals, and SQL for data analysis. I approach security with a "defense-first" mindset, focusing on understanding systems to better protect them. I am committed to continuous growth, ethical practice, and applying structured frameworks to solve complex security challenges. Through independent projects and formal training, I am bridging the gap between theoretical knowledge and practical application.
+I am a cybersecurity practitioner in development with a focused interest in defensive security operations, detection engineering, and responsible automation design.
 
----
+Currently completing the Merit America Cybersecurity Program, I am building structured technical depth in incident response, vulnerability assessment, network analysis, and SQL-based telemetry investigation. My work emphasizes not only identifying technical findings, but interpreting them within operational and business context.
 
-## Education & Development
+I approach security as a systems discipline. Tools generate output — security professionals generate judgment. As automation and AI continue to scale security operations, I am particularly interested in how guardrails, human-in-the-loop validation, and risk contextualization can prevent automation from becoming ungoverned amplification.
 
-### Merit America Cybersecurity Program
-*Currently Attending*
-- Intensive training in Java, SQL, and Cybersecurity Fundamentals.
-- Focus on professional development and technical proficiency.
-
-### Skills Under Development
-- **Security Operations:** Incident Response, Log Analysis, Vulnerability Management
-- **Networking:** TCP/IP, Network Traffic Analysis, Firewall Configuration
-- **Data & Scripting:** SQL for Analysis, Basic Scripting for Automation
-- **Tools:** Wireshark, Nmap (for defensive scanning), SQL Server, Linux Command Line
+All hands-on work is performed in controlled, authorized lab environments.
 
 ---
 
-## Independent Learning & Applied Practice
+## Core Technical Domains
 
-I believe that the best way to learn security is to build, analyze, and defend systems in a controlled environment.
+### Security Operations & Incident Response
+- Log correlation and anomaly detection
+- Vulnerability triage and remediation prioritization
+- Incident lifecycle modeling (NIST / SANS frameworks)
+- Post-incident analysis and lessons-learned documentation
 
-### [Project G.I.R. (Glitch, Intrude, Repeat)](projects/project-gir.md)
-*Concept & Architecture*
-A personal, modular learning framework designed to simulate vulnerability detection and response in a safe, authorized laboratory environment. This project focuses on understanding the "why" and "how" of security flaws to prevent them, emphasizing strict ethical boundaries and human-in-the-loop decision-making.
+### Detection Engineering & Data Analysis
+- SQL-driven log querying and threshold tuning
+- Event aggregation and time-bucketing strategies
+- Translating threat hypotheses into measurable detection logic
+- Reducing false positives through contextual filtering
+
+### Networking & Systems Foundations
+- TCP/IP protocol analysis
+- Port and service enumeration in lab environments
+- Linux command-line investigation workflows
+- Traffic inspection using packet analysis tools
+
+### Responsible Automation & Governance
+- Human-in-the-loop validation checkpoints
+- Scope enforcement and authorization boundaries
+- Non-destructive defaults in testing environments
+- Risk-context scoring instead of blind execution
 
 ---
 
-## Portfolio Navigation
+## Independent Research & Applied Practice
 
-- **[About Me & Career Journey](about.md)** – My background, ethical framework, and professional goals.
-- **[TryHackMe Learning Journal](projects/tryhackme-journal.md)** – Documentation of completed rooms, key concepts learned, and practical application notes.
-- **[Incident Handling Methodology](projects/incident-handler-journal.md)** – My approach to the incident response lifecycle, based on NIST/SANS frameworks.
-- **[Vulnerable System Analysis](projects/vulnerable-system-analysis.md)** – Reports on authorized vulnerability assessments of lab systems (e.g., Metasploitable), focusing on remediation.
-- **[SQL for Data Analysis](projects/sql-query.md)** – Examples of using SQL to query logs and extract meaningful security insights.
+### Project G.I.R. (Glitch, Intrude, Repeat)
+
+Project G.I.R. is a modular defensive analysis framework I designed to structure hands-on experimentation in a safe, controlled lab environment.
+
+The framework simulates a vulnerability detection pipeline:
+
+1. Controlled scan orchestration  
+2. Contextual interpretation of findings  
+3. Risk scoring based on impact and exposure  
+4. Structured, human-readable reporting  
+
+The emphasis is not exploitation. The emphasis is disciplined interpretation.
+
+As AI-assisted security tooling becomes more common, Project G.I.R. serves as a practical exploration of how automation must remain accountable to human judgment. Guardrails are embedded at the architectural level to prevent scope creep and unauthorized execution.
 
 ---
 
-*This portfolio documents my journey from student to practitioner. All activities are conducted in controlled, authorized environments for educational purposes.*
+## Professional Direction
+
+### Short-Term
+- Contribute to a security operations team in a SOC or junior analyst capacity
+- Continue strengthening detection logic, investigation workflows, and defensive tooling literacy
+
+### Long-Term
+- Help shape the responsible integration of AI and automation into defensive security operations
+- Develop expertise in incident response and detection architecture
+- Contribute to frameworks that balance scalable tooling with ethical oversight
+
+---
+
+## Operating Principles
+
+- Authorization before action  
+- Context before conclusion  
+- Remediation before recognition  
+- Automation with discipline  
+
+---
+
+*This portfolio documents structured growth from student to practitioner. All experimentation is conducted in isolated, authorized lab environments for educational and defensive purposes.*
