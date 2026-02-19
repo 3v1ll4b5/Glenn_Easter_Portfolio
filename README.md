@@ -62,6 +62,23 @@ As AI-assisted security tooling continues to evolve, this project explores how s
 
 ---
 
+## Security & AI Philosophy
+
+Security automation is accelerating, and AI-assisted tooling is increasingly embedded in detection, response, and vulnerability management workflows. While these technologies increase scale and speed, they also introduce amplification risk — small errors can propagate quickly when decision layers are abstracted away.
+
+My philosophy is that automation should enhance clarity, not replace judgment.
+
+Effective security systems must include:
+
+- Transparent reasoning paths  
+- Explicit authorization boundaries  
+- Human validation checkpoints  
+- Context-aware risk interpretation  
+
+The future of defensive security will depend not only on better models, but on better governance frameworks surrounding those models. I am particularly interested in designing systems where AI assists analysts without diminishing accountability, traceability, or ethical oversight.
+
+---
+
 ## Professional Direction
 
 ### Short-Term
