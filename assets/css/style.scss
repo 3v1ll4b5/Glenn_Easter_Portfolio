@@ -1,136 +1,140 @@
----
-# This front matter tells Jekyll to process SCSS
----
-
-/* Import Minima's base styles first */
-@import "minima";
+--- --- @import "minima";
 
 /* ===== 3v1l Tech Dark Mode ===== */
 :root {
-  --bg: #0b0f14;
-  --panel: #0f1720;
-  --text: #d6dee7;
-  --muted: #93a4b7;
-  --accent: #39ffdd; /* neon-cyan */
-  --accent2: #7c5cff; /* optional secondary (violet) */
-  --border: rgba(57, 255, 221, 0.18);
-  --shadow: rgba(0,0,0,0.45);
-  --codebg: #0a121a;
+    --bg: #0b0f14;
+    --panel: #0f1720;
+    --text: #d6dee7;
+    --muted: #93a4b7;
+    --accent: #39ffdd;
+    /* neon-cyan */
+    --border: rgba(57, 255, 221, .18);
+    --shadow: rgba(0, 0, 0, .45);
+    --codebg: #0a121a;
 }
 
-html, body {
-  background: var(--bg);
-  color: var(--text);
+html,
+body {
+    background: var(--bg);
+    color: var(--text);
 }
 
-/* Links */
-a, a:visited {
-  color: var(--accent);
-  text-decoration-color: rgba(57, 255, 221, 0.35);
+a,
+a:visited {
+    color: var(--accent);
+    text-decoration-color: rgba(57, 255, 221, .35);
 }
+
 a:hover {
-  text-decoration-color: var(--accent);
+    text-decoration-color: var(--accent);
 }
 
-/* Header / Nav */
 .site-header {
-  background: rgba(11, 15, 20, 0.88);
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-  box-shadow: 0 8px 26px var(--shadow);
+    background: rgba(11, 15, 20, .88);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 8px 26px var(--shadow);
 }
-.site-title, .site-title:visited {
-  color: var(--text);
-  letter-spacing: 0.02em;
+
+.site-title,
+.site-title:visited {
+    color: var(--text);
+    letter-spacing: .02em;
 }
+
 .site-nav .page-link {
-  color: var(--muted);
-  border-bottom: 1px solid transparent;
+    color: var(--muted);
+    border-bottom: 1px solid transparent;
 }
+
 .site-nav .page-link:hover {
-  color: var(--text);
-  border-bottom: 1px solid var(--accent);
+    color: var(--text);
+    border-bottom: 1px solid var(--accent);
 }
 
-/* Page container */
-.page-content {
-  background: transparent;
-}
 .wrapper {
-  max-width: 980px;
+    max-width: 980px;
 }
 
-/* Headings */
-h1, h2, h3 {
-  color: var(--text);
+.page-content {
+    background: transparent;
 }
+
+.post,
+.page {
+    background: linear-gradient(180deg, rgba(15, 23, 32, .92), rgba(11, 15, 20, .92));
+    border: 1px solid rgba(57, 255, 221, .14);
+    border-radius: 16px;
+    padding: 1.25rem 1.25rem;
+    box-shadow: 0 18px 50px var(--shadow);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--text);
+}
+
 h2 {
-  border-bottom: 1px solid rgba(57, 255, 221, 0.14);
-  padding-bottom: 0.25rem;
+    border-bottom: 1px solid rgba(57, 255, 221, .14);
+    padding-bottom: .25rem;
 }
 
-/* “Card” feel for main content */
-.post-content, .page-content .wrapper {
-  border-radius: 14px;
-}
-.post, .page {
-  background: linear-gradient(180deg, rgba(15, 23, 32, 0.92), rgba(11, 15, 20, 0.92));
-  border: 1px solid rgba(57, 255, 221, 0.14);
-  border-radius: 16px;
-  padding: 1.25rem 1.25rem;
-  box-shadow: 0 18px 50px var(--shadow);
-}
-
-/* Footer */
 .site-footer {
-  border-top: 1px solid var(--border);
-  color: var(--muted);
+    border-top: 1px solid var(--border);
+    color: var(--muted);
 }
-.site-footer a { color: var(--accent); }
 
-/* Code blocks */
-pre, code {
-  background: var(--codebg);
-  border: 1px solid rgba(57, 255, 221, 0.14);
+.site-footer a {
+    color: var(--accent);
 }
-pre {
-  padding: 0.9rem;
-  border-radius: 14px;
-  overflow-x: auto;
-}
+
+pre,
 code {
-  border-radius: 10px;
-  padding: 0.12rem 0.35rem;
+    background: var(--codebg);
+    border: 1px solid rgba(57, 255, 221, .14);
 }
 
-/* Tables */
+pre {
+    padding: .9rem;
+    border-radius: 14px;
+    overflow-x: auto;
+}
+
+code {
+    border-radius: 10px;
+    padding: .12rem .35rem;
+}
+
 table {
-  border-collapse: collapse;
-  width: 100%;
+    border-collapse: collapse;
+    width: 100%;
 }
-th, td {
-  border: 1px solid rgba(57, 255, 221, 0.12);
-}
-th {
-  background: rgba(15, 23, 32, 0.9);
-  color: var(--text);
-}
+
+th,
 td {
-  background: rgba(11, 15, 20, 0.65);
+    border: 1px solid rgba(57, 255, 221, .12);
 }
 
-/* Blockquotes */
+th {
+    background: rgba(15, 23, 32, .9);
+    color: var(--text);
+}
+
+td {
+    background: rgba(11, 15, 20, .65);
+}
+
 blockquote {
-  border-left: 3px solid var(--accent);
-  color: var(--muted);
-  background: rgba(15, 23, 32, 0.55);
-  border-radius: 12px;
-  padding: 0.7rem 0.9rem;
+    border-left: 3px solid var(--accent);
+    color: var(--muted);
+    background: rgba(15, 23, 32, .55);
+    border-radius: 12px;
+    padding: .7rem .9rem;
 }
 
-/* Subtle “terminal” HR */
 hr {
-  border: 0;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(57,255,221,0.35), transparent);
+    border: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(57, 255, 221, .35), transparent);
 }

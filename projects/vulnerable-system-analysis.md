@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Vulnerable System Analysis Reports
+title: Vulnerable System Analysis
 ---
 
 # Vulnerable System Analysis Reports

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Incident Handling Methodologies
+title: Incident Handling Methodology
 ---
 
 # Incident Handling Methodologies

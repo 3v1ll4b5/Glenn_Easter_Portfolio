@@ -6,6 +6,8 @@ title: Home
 # Glenn Easter  
 **Cybersecurity Professional | Emerging Security & AI Systems Leader**
 
+> `DEFENSE-FIRST • CONTEXT-FIRST • GOVERNANCE-AWARE`
+
 ---
 
 ## Executive Profile
@@ -30,15 +32,3 @@ All experimentation is conducted in isolated, authorized lab environments.
 - [SQL for Security Analysis](projects/sql-query.md)  
 
 ---
-
-## Security & AI Philosophy
-
-Automation increases speed. AI increases scale. Without governance, both increase risk.
-
-I am particularly interested in designing defensive systems where:
-- Reasoning paths remain transparent  
-- Authorization boundaries are explicit  
-- Validation checkpoints are mandatory  
-- Risk is interpreted in operational context  
-
-The future of security depends not only on smarter tools, but on structured frameworks that preserve accountability.
