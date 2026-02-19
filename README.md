@@ -5,41 +5,41 @@
 
 ## Executive Profile
 
-I am a cybersecurity practitioner in development with a focused interest in defensive security operations, detection engineering, and responsible automation design.
+I am a cybersecurity practitioner in development with a focused interest in defensive security operations, detection engineering, and responsible automation governance.
 
-Currently completing the Merit America Cybersecurity Program, I am building structured technical depth in incident response, vulnerability assessment, network analysis, and SQL-based telemetry investigation. My work emphasizes not only identifying technical findings, but interpreting them within operational and business context.
+Currently completing the Merit America Cybersecurity Program, I am building structured capability in incident response, vulnerability analysis, network fundamentals, and SQL-driven log investigation. My approach emphasizes disciplined interpretation over tool dependency — understanding not only what a system reports, but what it means, why it matters, and how it should be addressed.
 
-I approach security as a systems discipline. Tools generate output — security professionals generate judgment. As automation and AI continue to scale security operations, I am particularly interested in how guardrails, human-in-the-loop validation, and risk contextualization can prevent automation from becoming ungoverned amplification.
+As security tooling increasingly incorporates automation and AI, I am particularly interested in preserving the human judgment layer that prevents automation from becoming uncontrolled amplification.
 
-All hands-on work is performed in controlled, authorized lab environments.
+All experimentation is conducted in isolated, authorized lab environments.
 
 ---
 
 ## Core Technical Domains
 
 ### Security Operations & Incident Response
-- Log correlation and anomaly detection
-- Vulnerability triage and remediation prioritization
-- Incident lifecycle modeling (NIST / SANS frameworks)
-- Post-incident analysis and lessons-learned documentation
+- Structured incident lifecycle modeling (NIST / SANS)
+- Log correlation and anomaly identification
+- Vulnerability triage with remediation prioritization
+- Post-incident reflection and documentation
 
 ### Detection Engineering & Data Analysis
-- SQL-driven log querying and threshold tuning
-- Event aggregation and time-bucketing strategies
+- SQL-based query construction for security telemetry
+- Time-window aggregation and threshold tuning
 - Translating threat hypotheses into measurable detection logic
-- Reducing false positives through contextual filtering
+- Contextual filtering to reduce false positives
 
 ### Networking & Systems Foundations
 - TCP/IP protocol analysis
-- Port and service enumeration in lab environments
-- Linux command-line investigation workflows
-- Traffic inspection using packet analysis tools
+- Port and service interpretation
+- Linux command-line investigative workflows
+- Defensive scanning in controlled lab environments
 
 ### Responsible Automation & Governance
 - Human-in-the-loop validation checkpoints
-- Scope enforcement and authorization boundaries
-- Non-destructive defaults in testing environments
-- Risk-context scoring instead of blind execution
+- Scope enforcement and authorization guardrails
+- Non-destructive testing defaults
+- Risk contextualization before action
 
 ---
 
@@ -47,31 +47,31 @@ All hands-on work is performed in controlled, authorized lab environments.
 
 ### Project G.I.R. (Glitch, Intrude, Repeat)
 
-Project G.I.R. is a modular defensive analysis framework I designed to structure hands-on experimentation in a safe, controlled lab environment.
+Project G.I.R. is a disciplined interpretation framework designed to teach structured vulnerability analysis in a controlled environment.
 
-The framework simulates a vulnerability detection pipeline:
+Rather than focusing on exploitation mechanics, the framework emphasizes:
 
-1. Controlled scan orchestration  
-2. Contextual interpretation of findings  
-3. Risk scoring based on impact and exposure  
-4. Structured, human-readable reporting  
+- Slowing down tool output into structured reasoning  
+- Converting raw findings into contextual risk understanding  
+- Forcing human review before escalation  
+- Practicing remediation-first thinking  
 
-The emphasis is not exploitation. The emphasis is disciplined interpretation.
+The purpose of G.I.R. is educational by design. It exists to train judgment, not automate decisions.
 
-As AI-assisted security tooling becomes more common, Project G.I.R. serves as a practical exploration of how automation must remain accountable to human judgment. Guardrails are embedded at the architectural level to prevent scope creep and unauthorized execution.
+As AI-assisted security tooling continues to evolve, this project explores how systems can support analysts without replacing critical thinking. Guardrails are embedded architecturally to ensure authorization, scope discipline, and ethical boundaries remain intact.
 
 ---
 
 ## Professional Direction
 
 ### Short-Term
-- Contribute to a security operations team in a SOC or junior analyst capacity
-- Continue strengthening detection logic, investigation workflows, and defensive tooling literacy
+- Contribute to a security operations team in a SOC or analyst role
+- Continue strengthening investigative reasoning and detection workflows
 
 ### Long-Term
-- Help shape the responsible integration of AI and automation into defensive security operations
-- Develop expertise in incident response and detection architecture
-- Contribute to frameworks that balance scalable tooling with ethical oversight
+- Contribute to the responsible integration of AI into defensive security operations
+- Develop expertise in detection architecture and incident response strategy
+- Advocate for governance frameworks that preserve human judgment in automated systems
 
 ---
 
@@ -84,4 +84,4 @@ As AI-assisted security tooling becomes more common, Project G.I.R. serves as a 
 
 ---
 
-*This portfolio documents structured growth from student to practitioner. All experimentation is conducted in isolated, authorized lab environments for educational and defensive purposes.*
+*This portfolio documents structured growth from student to practitioner. All work is conducted in authorized lab environments for defensive and educational purposes.*
