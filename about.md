@@ -27,17 +27,11 @@ Integrity is non-negotiable in this field. My work is guided by the following pr
 -   **Do No Harm:** My goal is to improve security posture, not to disrupt services.
 -   **Privacy & Confidentiality:** I respect data privacy and handle sensitive information with the utmost care.
 
-## Professional Goals
+## Professional Trajectory
 
-**Short-Term:**
--   Complete the Merit America program with distinction.
--   Obtain entry-level certification (e.g., CompTIA Security+, Google Cybersecurity Certificate).
--   Secure a role as a Junior SOC Analyst or IT Support Specialist with a security focus.
+I am building toward a role in defensive security operations where I can apply structured detection logic, contextual risk analysis, and disciplined automation practices.
 
-**Long-Term:**
--   Develop specialized expertise in Incident Response and Threat Hunting.
--   Contribute to the security community through mentorship and knowledge sharing.
--   Become a trusted advisor in defensive security operations.
+My long-term direction is toward detection architecture and responsible AI-assisted security systems — designing frameworks that preserve accountability while enabling scale.
 
 ---
 [Return to Home](index.md)
