@@ -7,7 +7,7 @@ title: About
 
 ## Career Transition Narrative
 
-My journey into cybersecurity is driven by a desire to protect critical infrastructure and a fascination with how complex systems function. While I am new to the cybersecurity industry, I bring a history of dedication and a strong work ethic from my previous experiences. I am currently retraining through **Merit America**, a program that has not only provided me with technical skills but has also reinforced the importance of resilience, adaptability, and continuous learning.
+My journey into cybersecurity is driven by a desire to protect critical infrastructure and a fascination with how complex systems function. I am building toward cybersecurity leadership deliberately. My development is structured around technical depth, decision discipline, and ethical accountability. Formal training through **Merit America** provides the framework; independent applied work ensures the judgment layer is continuously strengthened.
 
 I chose cybersecurity because it sits at the intersection of problem-solving, continuous evolution, and public service. The challenge of staying ahead of emerging threats while ensuring the stability and safety of digital environments is a career path that resonates with my long-term professional values.
 
