@@ -28,7 +28,7 @@ Studying these mechanisms strengthens my ability to:
 - Interpret scan results within context
 - Design detection logic around observable telemetry
 - Understand how vulnerabilities propagate operational risk
-- Improve automation guardrails within structured analysis frameworks (e.g., Project G.I.R.)
+- Improve automation guardrails within structured analysis frameworks (e.g., GLITCH)
 
 Each lab is documented through a defensive lens — focusing on root cause, detection signals, remediation strategy, and governance implications rather than exploit mechanics.
 

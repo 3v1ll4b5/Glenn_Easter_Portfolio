@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Project G.I.R.
+title: GLITCH
 ---
 
-# Project G.I.R. (Glitch, Intrude, Repeat)
+# GLITCH (Glitch, Intrude, Repeat)
 
 **Status:** Active Development | Independent Research
 
@@ -11,7 +11,7 @@ title: Project G.I.R.
 
 ## Overview
 
-Project G.I.R. is a structured defensive analysis framework designed to cultivate disciplined vulnerability interpretation within a controlled laboratory environment.
+GLITCH is a structured defensive analysis framework designed to cultivate disciplined vulnerability interpretation within a controlled laboratory environment.
 
 It serves as a practical decision-training system — reinforcing how findings are contextualized, validated, and translated into remediation strategy rather than treated as isolated technical outputs.
 
@@ -21,7 +21,7 @@ The emphasis is not exploitation. The emphasis is judgment.
 
 ## Purpose
 
-Project G.I.R. was developed to address a common issue in security learning environments: overreliance on tool output without structured interpretation.
+GLITCH was developed to address a common issue in security learning environments: overreliance on tool output without structured interpretation.
 
 The framework is designed to:
 
@@ -36,7 +36,7 @@ The goal is to practice disciplined reasoning under controlled conditions.
 
 ## Architectural Philosophy
 
-Project G.I.R. is grounded in responsible automation principles:
+GLITCH is grounded in responsible automation principles:
 
 - Human validation before escalation  
 - Explicit scope enforcement  
@@ -62,7 +62,7 @@ Transforms technical output into clear, remediation-oriented summaries suitable 
 
 ## Educational Alignment
 
-Project G.I.R. reinforces structured capability in:
+GLITCH reinforces structured capability in:
 
 - Detection logic interpretation  
 - Network service analysis  
@@ -91,6 +91,6 @@ The system exists to strengthen defensive reasoning, not to simulate offensive c
 
 ## Broader Context
 
-Project G.I.R. reflects my broader philosophy that automation and AI must operate within structured governance frameworks. As defensive tooling becomes more autonomous, preserving transparent reasoning, human validation, and contextual risk interpretation becomes essential.
+GLITCH reflects my broader philosophy that automation and AI must operate within structured governance frameworks. As defensive tooling becomes more autonomous, preserving transparent reasoning, human validation, and contextual risk interpretation becomes essential.
 
 This framework serves as a controlled environment for developing that discipline — ensuring that scale never replaces judgment.

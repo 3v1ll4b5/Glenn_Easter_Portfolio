@@ -45,9 +45,9 @@ All experimentation is conducted in isolated, authorized lab environments.
 
 ## Independent Research & Applied Practice
 
-### Project G.I.R. (Glitch, Intrude, Repeat)
+### GLITCH (Glitch, Intrude, Repeat)
 
-Project G.I.R. is a disciplined interpretation framework designed to teach structured vulnerability analysis within a controlled lab environment.
+GLITCH is a disciplined interpretation framework designed to teach structured vulnerability analysis within a controlled lab environment.
 
 Its emphasis is not exploitation, but judgment training. The framework:
 
